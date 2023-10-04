@@ -1,0 +1,58 @@
+{
+    "grades": [
+        {
+            "id": 1,
+            "name": "1st Grade",
+            "subjects": [
+                {
+                    "id": 1,
+                    "name": "Mathematics"
+                },
+                {
+                    "id": 2,
+                    "name": "Science"
+                },
+                {
+                    "id": 3,
+                    "name": "Portuguese"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "2nd Grade",
+            "subjects": [
+                {
+                    "id": 1,
+                    "name": "Mathematics"
+                },
+                {
+                    "id": 2,
+                    "name": "Science"
+                },
+                {
+                    "id": 3,
+                    "name": "Portuguese"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "3rd Grade",
+            "subjects": [
+                {
+                    "id": 1,
+                    "name": "Mathematics"
+                },
+                {
+                    "id": 2,
+                    "name": "Science"
+                },
+                {
+                    "id": 3,
+                    "name": "Portuguese"
+                }
+            ]
+        }
+    ]
+}
