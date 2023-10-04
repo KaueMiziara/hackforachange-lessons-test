@@ -1,4 +1,5 @@
 import React from "react";
+import ListItem from "./ListItem";
 
 interface GradeSelectorProps {
     grades: Array<{name: string}>;
@@ -8,11 +9,11 @@ const GradeSelector: React.FC<GradeSelectorProps> = ({grades}) => {
     return (
         <div>
             <h2>Select a Grade:</h2>
-            <ul>
+            <div>
                 {grades.map((grade, index) => (
-                    <li key={index}>{grade.name}</li>
+                    <ListItem key={index} name={grade.name} />
                 ))}
-            </ul>
+            </div>
         </div>
     );
 };
