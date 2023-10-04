@@ -4,10 +4,16 @@ import (
 	"encoding/json"
 	"hackforachange-demo-backend/models"
 	"os"
+	"path/filepath"
 )
 
 func LoadGrades() ([]models.Grade, error) {
-	data, err := os.ReadFile("../data/database.json")
+	path, err := filepath.Abs("data/database.json")
+	if err != nil {
+		return nil, err
+	}
+
+	data, err := os.ReadFile(path)
 	if err != nil {
 		return nil, err
 	}
