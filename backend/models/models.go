@@ -11,8 +11,10 @@ type Grade struct {
 }
 
 type Subject struct {
-	ID   int    `json:"id"`
-	Name string `json:"name"`
+	ID        int        `json:"id"`
+	Name      string     `json:"name"`
+	Lessons   []Lesson   `json:"lessons"`
+	Exercises []Exercise `json:"exercises"`
 }
 
 type Lesson struct {
