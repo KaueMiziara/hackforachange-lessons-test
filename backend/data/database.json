@@ -2,61 +2,61 @@
     "grades": [
         {
             "id": 1,
-            "name": "1st Grade",
+            "name": "1ª Série",
             "subjects": [
                 {
                     "id": 1,
-                    "name": "Mathematics",
+                    "name": "Matemática",
                     "lessons": [
                         {
                             "id": 1,
-                            "title": "Addition",
-                            "content": "This is an addition lesson for 1st Grade Mathematics"
+                            "title": "Adição",
+                            "content": "Esta é uma aula sobre adição."
                         },
                         {
                             "id": 2,
-                            "title": "Subtraction",
-                            "content": "This is a subtraction lesson for 1st Grade Mathematics"
+                            "title": "Subtração",
+                            "content": "Esta é uma aula sobre subtração."
                         }
                     ],
                     "exercises": [
                         {
                             "id": 1,
-                            "title": "Addition Exercise",
-                            "content": "Solve the addition problems for 1st Grade Mathematics."
+                            "title": "Exercício de Adição",
+                            "content": "Resolva os problemas de adição."
                         },
                         {
                             "id": 2,
-                            "title": "Subtraction Exercise",
-                            "content": "Solve the subtraction problems for 1st Grade Mathematics."
+                            "title": "Exercício de Subtração",
+                            "content": "Resolva os problemas de subtração."
                         }
                     ]
                 },
                 {
                     "id": 2,
-                    "name": "Science",
+                    "name": "Ciências",
                     "lessons": [
                         {
                             "id": 3,
-                            "title": "Plants",
-                            "content": "This is a lesson about plants for 1st Grade Science."
+                            "title": "Plantas",
+                            "content": "Esta é uma aula sobre plantas ."
                         },
                         {
                             "id": 4,
-                            "title": "Animals",
-                            "content": "This is a lesson about animals for 1st Grade Science."
+                            "title": "Animais",
+                            "content": "Esta é uma aula sobre animais."
                         }
                     ],
                     "exercises": [
                         {
                             "id": 3,
-                            "title": "Plants Exercise",
-                            "content": "Answer questions about plants for 1st Grade Science."
+                            "title": "Exercício sobre Plantas",
+                            "content": "Responda às perguntas sobre plantas."
                         },
                         {
                             "id": 4,
-                            "title": "Animals Exercise",
-                            "content": "Answer questions about animals for 1st Grade Science."
+                            "title": "Exercício de Animais",
+                            "content": "Responda às perguntas sobre animais."
                         }
                     ]
                 }
@@ -64,61 +64,61 @@
         },
         {
             "id": 2,
-            "name": "2nd Grade",
+            "name": "2ª Série",
             "subjects": [
                 {
                     "id": 3,
-                    "name": "Mathematics",
+                    "name": "Matemática",
                     "lessons": [
                         {
                             "id": 5,
-                            "title": "Multiplication",
-                            "content": "This is a multiplication lesson for 2nd Grade Mathematics."
+                            "title": "Multiplicação",
+                            "content": "Esta é uma aula sobre multiplicação."
                         },
                         {
                             "id": 6,
-                            "title": "Division",
-                            "content": "This is a division lesson for 2nd Grade Mathematics."
+                            "title": "Divisão",
+                            "content": "Esta é uma aula sobre divisão."
                         }
                     ],
                     "exercises": [
                         {
                             "id": 5,
-                            "title": "Multiplication Exercise",
-                            "content": "Practice multiplication problems for 2nd Grade Mathematics."
+                            "title": "Exercício de Multiplicação",
+                            "content": "Resolva os problemas de multiplicação."
                         },
                         {
                             "id": 6,
-                            "title": "Division Exercise",
-                            "content": "Practice division problems for 2nd Grade Mathematics."
+                            "title": "Exercício de Divisão",
+                            "content": "Resolva os problemas de divisão."
                         }
                     ]
                 },
                 {
                     "id": 4,
-                    "name": "Science",
+                    "name": "Ciências",
                     "lessons": [
                         {
                             "id": 7,
-                            "title": "Earth Science",
-                            "content": "This is a lesson about Earth science for 2nd Grade Science."
+                            "title": "Terra",
+                            "content": "Esta é uma aula sobre o Planeta Terra."
                         },
                         {
                             "id": 8,
-                            "title": "Space Science",
-                            "content": "This is a lesson about space science for 2nd Grade Science."
+                            "title": "Espaço",
+                            "content": "Esta é uma aula sobre o Espaço."
                         }
                     ],
                     "exercises": [
                         {
                             "id": 7,
-                            "title": "Earth Science Exercise",
-                            "content": "Answer questions about Earth science for 2nd Grade Science."
+                            "title": "Exercício sobre o Planeta Terra",
+                            "content": "Responda às questões sobre o Planeta Terra."
                         },
                         {
                             "id": 8,
-                            "title": "Space Science Exercise",
-                            "content": "Answer questions about space science for 2nd Grade Science."
+                            "title": "Exercício sobre o Espaço",
+                            "content": "Responda às questões sobre o Espaço."
                         }
                     ]
                 }
