@@ -59,3 +59,26 @@ func GetLessonsByGradeAndSubject(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(lessons)
 }
+
+func GetExercisesByGradeAndSubject(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	gradeID, err := strconv.Atoi(vars["gradeID"])
+	if err != nil {
+		http.Error(w, "Invalid grade ID", http.StatusBadRequest)
+		return
+	}
+
+	subjectID, err := strconv.Atoi(vars["subjectID"])
+	if err != nil {
+		http.Error(w, "Invalud subject ID", http.StatusBadRequest)
+		return
+	}
+
+	exercises, err := LoadExercisesByGradeAndSubject(gradeID, subjectID)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(exercises)
+}
