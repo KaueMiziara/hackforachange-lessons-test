@@ -1,4 +1,4 @@
-# Hack for a Change - Test
+# Hack for a Change - Team Swift
 
 ## Run backend
 ```bash

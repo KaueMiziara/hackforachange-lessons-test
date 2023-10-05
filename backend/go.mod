@@ -1,4 +1,4 @@
-module hackforachange-demo-backend
+module hackforachange-swift-backend
 
 go 1.21.1
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"hackforachange-demo-backend/api"
+	"hackforachange-swift-backend/api"
 	"net/http"
 
 	"github.com/gorilla/mux"
