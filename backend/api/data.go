@@ -59,3 +59,22 @@ func LoadLessonsByGradeAndSubject(gradeID, subjectID int) ([]models.Lesson, erro
 
 	return nil, nil
 }
+
+func LoadExercisesByGradeAndSubject(gradeID, subjectID int) ([]models.Exercise, error) {
+	grades, err := LoadGrades()
+	if err != nil {
+		return nil, err
+	}
+
+	for _, grade := range grades {
+		if grade.ID == gradeID {
+			for _, subject := range grade.Subjects {
+				if subject.ID == subjectID {
+					return subject.Exercises, nil
+				}
+			}
+		}
+	}
+
+	return nil, nil
+}
