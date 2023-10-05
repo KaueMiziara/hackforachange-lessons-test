@@ -8,7 +8,8 @@
 
 The server will open on localhost:8080 <br>
 Endpoints:
-- Get grades: "/api/grades"
+- GET grades: "/api/grades"
+- GET subjects by grade ID: "/api/subjects/{gradeID}"
 
 ## Run frontend
 ```bash
