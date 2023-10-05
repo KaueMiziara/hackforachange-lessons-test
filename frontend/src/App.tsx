@@ -1,11 +1,11 @@
 import React from "react";
-import MainScreen from "./components/MainScreen";
+import RoutesConfig from "./routing/RoutesConfig";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <MainScreen />
+      <RoutesConfig />
     </div>
   );
 }
