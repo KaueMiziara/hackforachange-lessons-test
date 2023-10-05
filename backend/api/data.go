@@ -26,7 +26,7 @@ func LoadGrades() ([]models.Grade, error) {
 	return jsonData.Grades, nil
 }
 
-func GetSubjectByGradeId(gradeID int) ([]models.Subject, error) {
+func LoadSubjectByGradeId(gradeID int) ([]models.Subject, error) {
 	grades, err := LoadGrades()
 	if err != nil {
 		return nil, err
@@ -35,6 +35,25 @@ func GetSubjectByGradeId(gradeID int) ([]models.Subject, error) {
 	for _, grade := range grades {
 		if grade.ID == gradeID {
 			return grade.Subjects, nil
+		}
+	}
+
+	return nil, nil
+}
+
+func LoadLessonsByGradeAndSubject(gradeID, subjectID int) ([]models.Lesson, error) {
+	grades, err := LoadGrades()
+	if err != nil {
+		return nil, err
+	}
+
+	for _, grade := range grades {
+		if grade.ID == gradeID {
+			for _, subject := range grade.Subjects {
+				if subject.ID == subjectID {
+					return subject.Lessons, nil
+				}
+			}
 		}
 	}
 
