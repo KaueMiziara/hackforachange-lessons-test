@@ -21,7 +21,7 @@ const SubjectSelection: React.FC = () => {
 
     return (
         <div>
-            <h2>Subjects for Grade {gradeID}:</h2>
+            <h2>Matérias para a {gradeID}ª Série:</h2>
             <div className="grades-container">
                 {subjects.map((subject) => (
                     <Link key={subject.id} to={`/lessons-and-exercises/${gradeID}/${subject.id}`}>

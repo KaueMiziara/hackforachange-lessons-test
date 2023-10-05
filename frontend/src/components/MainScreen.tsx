@@ -4,7 +4,7 @@ import GradeSelector from "./GradeSelector";
 function MainScreen() {
   return (
     <div>
-        <h1>Main Menu</h1>
+        <h1>EducaSwift</h1>
         <GradeSelector />
     </div>
   );

@@ -20,7 +20,7 @@ const GradeSelector: React.FC = () => {
 
     return (
         <div >
-            <h2>Select a Grade</h2>
+            <h2>Selecione uma Série</h2>
             <div className="grades-container">
                 {grades.map((grade) => (
                     <Link key={grade.id} to={`/subjects/${grade.id}`}>

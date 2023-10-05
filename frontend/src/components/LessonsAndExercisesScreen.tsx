@@ -30,7 +30,7 @@ const LessonsAndExercisesScreen: React.FC = () => {
 
   return (
     <div>
-      <h2>Lessons and Exercises</h2>
+      <h2>Aulas e Exercícios</h2>
       <ul>
         {combinedData.map((item) => (
           <li key={item.id}>
