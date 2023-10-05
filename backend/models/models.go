@@ -14,3 +14,15 @@ type Subject struct {
 	ID   int    `json:"id"`
 	Name string `json:"name"`
 }
+
+type Lesson struct {
+	ID      int    `json:"id"`
+	Title   string `json:"title"`
+	Content string `json:"content"`
+}
+
+type Exercise struct {
+	ID      int    `json:"id"`
+	Title   string `json:"title"`
+	Content string `json:"content"`
+}
