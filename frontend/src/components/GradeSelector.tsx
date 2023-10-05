@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ListItem from "./ListItem";
 import "./GradeSelector.css";
+import { Link } from "react-router-dom";
 
 interface Grade {
     id: number;
@@ -22,7 +23,9 @@ const GradeSelector: React.FC = () => {
             <h2>Select a Grade</h2>
             <div className="grades-container">
                 {grades.map((grade) => (
-                    <ListItem key={grade.id} name={grade.name} />
+                    <Link key={grade.id} to={`/subjects/${grade.id}`}>
+                        <ListItem name={grade.name} />
+                    </Link>
                 ))}
             </div>
         </div>
