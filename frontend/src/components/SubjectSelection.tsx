@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import ListItem from "./ListItem";
+import { Link } from "react-router-dom";
 
 interface Subject {
     id: number;
@@ -23,7 +24,9 @@ const SubjectSelection: React.FC = () => {
             <h2>Subjects for Grade {gradeID}:</h2>
             <div className="grades-container">
                 {subjects.map((subject) => (
-                    <ListItem key={subject.id} name={subject.name} />
+                    <Link key={subject.id} to={`/lessons-and-exercises/${gradeID}/${subject.id}`}>
+                        <ListItem name={subject.name} />
+                    </Link>
                 ))}
             </div>
         </div>
