@@ -6,15 +6,59 @@
             "subjects": [
                 {
                     "id": 1,
-                    "name": "Mathematics"
+                    "name": "Mathematics",
+                    "lessons": [
+                        {
+                            "id": 1,
+                            "title": "Addition",
+                            "content": "This is an addition lesson for 1st Grade Mathematics"
+                        },
+                        {
+                            "id": 2,
+                            "title": "Subtraction",
+                            "content": "This is a subtraction lesson for 1st Grade Mathematics"
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": 1,
+                            "title": "Addition Exercise",
+                            "content": "Solve the addition problems for 1st Grade Mathematics."
+                        },
+                        {
+                            "id": 2,
+                            "title": "Subtraction Exercise",
+                            "content": "Solve the subtraction problems for 1st Grade Mathematics."
+                        }
+                    ]
                 },
                 {
                     "id": 2,
-                    "name": "Science"
-                },
-                {
-                    "id": 3,
-                    "name": "Portuguese"
+                    "name": "Science",
+                    "lessons": [
+                        {
+                            "id": 3,
+                            "title": "Plants",
+                            "content": "This is a lesson about plants for 1st Grade Science."
+                        },
+                        {
+                            "id": 4,
+                            "title": "Animals",
+                            "content": "This is a lesson about animals for 1st Grade Science."
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": 3,
+                            "title": "Plants Exercise",
+                            "content": "Answer questions about plants for 1st Grade Science."
+                        },
+                        {
+                            "id": 4,
+                            "title": "Animals Exercise",
+                            "content": "Answer questions about animals for 1st Grade Science."
+                        }
+                    ]
                 }
             ]
         },
@@ -23,34 +67,60 @@
             "name": "2nd Grade",
             "subjects": [
                 {
-                    "id": 1,
-                    "name": "Mathematics"
-                },
-                {
-                    "id": 2,
-                    "name": "Science"
-                },
-                {
                     "id": 3,
-                    "name": "Portuguese"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "name": "3rd Grade",
-            "subjects": [
-                {
-                    "id": 1,
-                    "name": "Mathematics"
+                    "name": "Mathematics",
+                    "lessons": [
+                        {
+                            "id": 5,
+                            "title": "Multiplication",
+                            "content": "This is a multiplication lesson for 2nd Grade Mathematics."
+                        },
+                        {
+                            "id": 6,
+                            "title": "Division",
+                            "content": "This is a division lesson for 2nd Grade Mathematics."
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": 5,
+                            "title": "Multiplication Exercise",
+                            "content": "Practice multiplication problems for 2nd Grade Mathematics."
+                        },
+                        {
+                            "id": 6,
+                            "title": "Division Exercise",
+                            "content": "Practice division problems for 2nd Grade Mathematics."
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "Science"
-                },
-                {
-                    "id": 3,
-                    "name": "Portuguese"
+                    "id": 4,
+                    "name": "Science",
+                    "lessons": [
+                        {
+                            "id": 7,
+                            "title": "Earth Science",
+                            "content": "This is a lesson about Earth science for 2nd Grade Science."
+                        },
+                        {
+                            "id": 8,
+                            "title": "Space Science",
+                            "content": "This is a lesson about space science for 2nd Grade Science."
+                        }
+                    ],
+                    "exercises": [
+                        {
+                            "id": 7,
+                            "title": "Earth Science Exercise",
+                            "content": "Answer questions about Earth science for 2nd Grade Science."
+                        },
+                        {
+                            "id": 8,
+                            "title": "Space Science Exercise",
+                            "content": "Answer questions about space science for 2nd Grade Science."
+                        }
+                    ]
                 }
             ]
         }
